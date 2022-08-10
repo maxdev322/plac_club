@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    min-height: 600px;
+    background: url("./img/plac_bg.jpg") no-repeat center /cover;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.container{
+    max-width: 1180px;
+    height: inherit;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_inf{
+    text-align: center;
+}
+
+.main_inf h2{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.main_inf p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 487px){
+    .main_inf h2{
+        font-size: 50px;
+    }  
+}
